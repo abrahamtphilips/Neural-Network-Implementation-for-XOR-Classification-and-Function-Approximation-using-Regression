@@ -35,7 +35,7 @@ def tanh_derivative(x):
     return 1 - np.tanh(x) ** 2
 
 
-# Initialize weights and biases
+# Initialization of weights and biases
 input_size = 2
 hidden_size = 2
 output_size = 1
