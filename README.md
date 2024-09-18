@@ -1,11 +1,5 @@
 # Neural-Network-Implementation-for-XOR-Classification-and-Function-Approximation-using-Regression
 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-
-np.random.seed(32000)
-
  This project demonstrates the use of neural networks for two tasks:
  
  1. XOR Classification: A feedforward neural network is trained to classify the XOR logic function using a hidden layer with 2 neurons, tanh and
@@ -15,6 +9,11 @@ np.random.seed(32000)
    hidden neurons and another with 20, are trained and compared in terms of accuracy and training error. The model outputs are plotted alongside the
    actual data, and the loss function evolution is visualized during training.
 
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+np.random.seed(32000)
 
 # Defining the sigmoid activation function
 def sigmoid(x):
