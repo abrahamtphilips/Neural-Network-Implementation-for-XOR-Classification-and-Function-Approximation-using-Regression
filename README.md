@@ -20,7 +20,7 @@ def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
 
-# Defining the derivative of sigmoid activation function
+# Defining the derivative of the sigmoid activation function
 def sigmoid_derivative(x):
     return x * (1 - x)
 
@@ -30,7 +30,7 @@ def tanh(x):
     return np.tanh(x)
 
 
-# Defining the derivative of hyperbolic tangent activation function
+# Defining the derivative of the hyperbolic tangent activation function
 def tanh_derivative(x):
     return 1 - np.tanh(x) ** 2
 
